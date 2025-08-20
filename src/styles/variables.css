@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Fonts */
+    --font-main: 'Inter', sans-serif;
+    --font-header: 'Montserrat', sans-serif;
+
+    /* Colors */
+    --primary-color: #DAAC78;
+    --secondary-color: #57642C;
+    --accent-color: #84915B;
+    --bg-color: #FEFAE0;
+    --bg-2-color: #A1AE7B;
+    --text-color: #93521A;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-header);
+}
+
+h1 {
+    font-size: 34px
+}
+
+h2 {
+    font-size: 28px;
+}

@@ -1,0 +1,50 @@
+.nav {
+    background-color: var(--bg-color);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+}
+
+.name {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.name p {
+    font-size: 1rem;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.link:hover {
+    color: var(--text-color);
+}
+
+.active {
+    text-decoration: underline;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: var(--accent-color);
+}
