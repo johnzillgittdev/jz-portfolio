@@ -18,7 +18,10 @@ function Experience() {
                     <p>2019 - Present <b>|</b> Las Vegas, NV</p>
                 </div>
                 <div className={styles.sectionDescription}>
-                    <p>Developed cross-platform apps with .NET MAUI and XAML, designed REST APIs, optimized SQL performance, and mentored junior engineers.</p>
+                    <p>Built cross-platform mobile applications, web applications, REST APIs, and SQL database access classes.</p>
+                    <p>Gained and deployed knowledge with frameworks like .NET Core, .NET MAUI, ExtJS, Spring, Oracle SQL, and more.</p>
+                    <p>Built .NET code library with reusable front-end components and instrumental service methods.</p>
+                    <p>Mentored fellow engineers on joining the company and feeling like part of the culture.</p>
                 </div>
             </div>
             <div className={styles.section}>
@@ -28,7 +31,9 @@ function Experience() {
                     <p>Apr 2018 - Apr 2019 <b>|</b> Cedar City, UT</p>
                 </div>
                 <div className={styles.sectionDescription}>
-                    <p></p>
+                    <p>Led Student Life committee to focus on improvements to campus life and student experience.</p>
+                    <p>Managed "My SUU Voice" program to receive and incorporate direct student feedback.</p>
+                    <p>Planned involvement events to get students engaged with caring about what happens on campus.</p>
                 </div>
             </div>
             <div className={styles.section}>
@@ -36,9 +41,10 @@ function Experience() {
                     <h3>Teaching Assistant</h3>
                     <p>Southern Utah University</p>
                     <p>Jan 2017 - Apr 2019 <b>|</b> Cedar City, UT</p>
-                </div>
+                </div> 
                 <div className={styles.sectionDescription}>
-                    <p></p>
+                    <p>Supported instruction for core computer science courses.</p>
+                    <p>Enhanced student performance through personalized tutoring.</p>
                 </div>
             </div>
             <div className={styles.experienceTitle}>
