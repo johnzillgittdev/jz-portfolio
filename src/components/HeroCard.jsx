@@ -1,4 +1,4 @@
-import styles from './InfoCard.module.css';
+import styles from './HeroCard.module.css';
 import profilePic from '../assets/me.jpeg';
 import { ReactComponent as LinkedInIcon } from '../assets/linkedin.svg';
 import { ReactComponent as GitHubIcon } from '../assets/github.svg';

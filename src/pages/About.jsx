@@ -1,12 +1,12 @@
 import styles from './About.module.css';
-import InfoCard from '../components/InfoCard';
+import HeroCard from '../components/HeroCard';
 
 function About() {
     return (
         <div className={styles.page}>
             <div className={styles.left}>
                 <div className={styles.info}>
-                <InfoCard />
+                <HeroCard />
                 </div>
             </div>
             <div className={styles.right}>
